@@ -13,7 +13,7 @@ $(document).ready(function() {
     wait().then(function(){
         var water_points = {
             draw: function(){
-                var location_001={lat: -27.44561, lng:  15.501483} 
+                var location_001={lat: -24.744561, lng:  15.501483} 
                 var point_001 = new google.maps.Marker({
                     position: location_001,
                     title: "Point 1"
